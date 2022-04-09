@@ -10,6 +10,7 @@ module.exports = {
             colors: {
                 "cp-blue": "#6F77F4",
                 "cp-yellow": "#FFD845",
+                "cp-light-yellow": "#FFEA99",
                 "cp-red": "#FF6766",
                 "cp-black": "#3A3A3A",
             },
