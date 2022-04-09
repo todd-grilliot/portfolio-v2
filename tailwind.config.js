@@ -14,15 +14,14 @@ module.exports = {
                 "cp-black": "#3A3A3A",
             },
             fontFamily: {
-                'mont': ['Montserrat'],
-                'play': ['Playfair Display']
+                mont: ["Montserrat"],
+                play: ["Playfair Display"],
             },
             backgroundImage: {
-                "hero-desktop": "url('../assets/hi-my-name-is-todd.jpg')",
+                "hero-desktop": "url('assets/hi-my-name-is-todd.jpg')",
+                "hero-mobile": "url('assets/hi-my-name-is-todd-mobile.jpg')",
             },
         },
     },
-    plugins: [
-        require('@tailwindcss/typography'),
-    ],
+    plugins: [require("@tailwindcss/typography")],
 };
