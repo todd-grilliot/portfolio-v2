@@ -5,11 +5,11 @@ export const skillsObj = [
     },
     {
         name: "Tailwind",
-        img: require("../assets/icons/file-type-tailwind.256x154.png"),
+        img: require("../assets/icons/Tailwind_CSS_Logo.png"),
     },
     {
         name: "Jest",
-        img: require("../assets/icons/file-type-jest.231x256.png"),
+        img: require("../assets/icons/4691287_jest_icon.png"),
     },
     {
         name: "Node",

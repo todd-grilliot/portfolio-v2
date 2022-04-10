@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <div className="bg-cp-blue bg-cover w-fit sm:hidden">
+        <div className="bg-cp-blue bg-cover w-fit lg:hidden">
             <h2 className="pt-16 pb-2 leading-tight font-play font-black text-2xl text-cp-black text-center">
                 I{"'"}m Todd Grilliot
             </h2>
@@ -20,7 +20,7 @@ const Hero = () => {
                     SEE MY WORK
                 </button>
             </div>
-            <div className="p-32 bg-cover bg-center bg-hero-mobile"></div>
+            <div className="py-32 h-40v bg-top bg-cover bg-hero-mobile"></div>
         </div>
     );
 };

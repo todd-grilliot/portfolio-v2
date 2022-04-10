@@ -3,8 +3,8 @@ import SkillsList from "./SkillsList";
 
 const Skills = () => {
     return (
-        <div className="my-8">
-            <h2 className="p-2 leading-tight font-mont font-extrabold text-5xl text-cp-black text-center">
+        <div className="my-16 lg:hidden">
+            <h2 className="p-2 leading-tight font-mont font-extrabold text-5xl text-cp-black text-center ">
                 My Skills
             </h2>
             <hr className="my-8 mx-auto w-20 border-4 border-cp-red" />
@@ -12,7 +12,7 @@ const Skills = () => {
                 From React to Jest. I love to learn and I’m always trying
                 something new!
             </p>
-            <SkillsList />
+            <SkillsList isOnDesktop={false}/>
         </div>
     );
 };

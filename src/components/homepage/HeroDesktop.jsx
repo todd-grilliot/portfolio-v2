@@ -2,13 +2,13 @@ import React from "react";
 
 const HeroDesktop = () => {
     return (
-        <div className="p-32 bg-cover bg-center bg-hero-desktop hidden sm:block">
+        <div className="p-32 bg-cover bg-center bg-hero-desktop hidden lg:block">
             <h2 className="my-8 leading-tight font-play font-black text-4xl text-cp-black">
                 {" "}
                 I{"'"}m Todd Grilliot
             </h2>
-            <h1 className="my-8 leading-tight font-mont font-extrabold text-7xl text-white">
-                A Front-end Web Developer
+            <h1 className="my-8 leading-tight font-mont font-extrabold w-3/5 text-7xl text-white">
+                A Front-end Web Developer.
             </h1>
             <hr className="my-8 w-24 border-4 border-cp-yellow" />
             <p className="my-8 font-mont font-medium  text-white w-2/5">
