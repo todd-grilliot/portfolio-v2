@@ -14,8 +14,9 @@ ReactDOM.render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="about" element={<About />} />
                 <Route path="*" element={<NoMatchPage />} />
+                <Route path="about" element={<About />} />
+
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,

@@ -3,7 +3,7 @@ import SkillsList from "./SkillsList";
 
 const SkillsDesktop = () => {
     return (
-        <div className="py-20 hidden lg:flex justify-center">
+        <div className="py-20 hidden lg:flex justify-start">
             <div className="w-1/2">
                 <SkillsList isOnDesktop={true} />
             </div>

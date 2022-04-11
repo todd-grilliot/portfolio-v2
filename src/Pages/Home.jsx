@@ -8,9 +8,10 @@ import Projects from "../components/homepage/Projects";
 import Footer from "../components/Footer";
 
 function Home() {
+
     return (
         <div className="Home">
-            <Header />
+            <Header isGrey={false}/>
             <Hero />
             <HeroDesktop />
             <Skills />
