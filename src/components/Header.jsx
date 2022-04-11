@@ -5,12 +5,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import MenuModal from "./MenuModal";
 
-const Header = ({ isGrey }) => {
+const Header = ({ isGrey, setIsFromProjects }) => {
     const [showModal, setShowModal] = useState(false);
     function toggleMenu(e) {
         let closeMenu = e.target.classList.value.includes("close-menu");
         if (!closeMenu && showModal) return;
         setShowModal(!showModal);
+    }
+    function handleProjects(){
+        console.log('handling projects');
+        setIsFromProjects(true);
+        //state isn't working....
+        //when the link moves over it kind of like interupts whatever is going on... I think I need somekind of router callback function...
+        // there might be a way to pass data through the link like I have before...
+        // setIsFromProjects();
     }
     const desktopView = (
         <div
@@ -22,7 +30,7 @@ const Header = ({ isGrey }) => {
             <Link to="/about" className={`p-8 ${isGrey ? "hover:text-slate-500" : "hover:text-cp-light-blue"}`}>
                 About
             </Link>
-            <Link to="/" className={`p-8 ${isGrey ? "hover:text-slate-500" : "hover:text-cp-light-blue"}`}>
+            <Link to="/" onClick={handleProjects} className={`p-8 ${isGrey ? "hover:text-slate-500" : "hover:text-cp-light-blue"}`}>
                 Projects
             </Link>
         </div>
@@ -56,12 +64,7 @@ const Header = ({ isGrey }) => {
 
 Header.propTypes = {
     isGrey: PropTypes.bool,
-    // color: PropTypes.string,
-    // color2: PropTypes.string,
+ setIsFromProjects: PropTypes.bool,
 };
-// Header.defaultProps = {
-//     // color: "cp-blue",
-//     // color2: "cp-light-blue",
-// };
 
 export default Header;

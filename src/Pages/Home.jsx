@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef, useEffect, useState} from "react";
 import Header from "../components/Header";
 import Hero from "../components/homepage/Hero";
 import HeroDesktop from "../components/homepage/HeroDesktop";
@@ -8,17 +8,24 @@ import Projects from "../components/homepage/Projects";
 import Footer from "../components/Footer";
 
 function Home() {
-
+    const projectsRef = useRef();
+    const [isFromProjects, setIsFromProjects] = useState(false);
+    useEffect(() => {
+        console.log(isFromProjects);
+        // projectsRef.current.scrollIntoView({behavior: 'smooth' })
+    })
+      
+    
     return (
-        <div className="Home">
-            <Header isGrey={false}/>
+        <>
+            <Header isGrey={false} handleRef={setIsFromProjects}/>
             <Hero />
             <HeroDesktop />
             <Skills />
             <SkillsDesktop />
-            <Projects />
+            <Projects projectsRef={projectsRef}/>
             <Footer />
-        </div>
+        </>
     );
 }
 
