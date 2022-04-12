@@ -1,6 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-const HeroDesktop = () => {
+const HeroDesktop = ({ update }) => {
     return (
         <div className="p-32 bg-cover bg-center bg-hero-desktop hidden lg:block">
             <h2 className="my-8 leading-tight font-play font-black text-4xl text-cp-black">
@@ -15,11 +17,18 @@ const HeroDesktop = () => {
                 projects so you can play with them. Take a look around and let
                 me know what you think!
             </p>
+            <Link to="/projects" onClick={update}>
             <button className="my-1 py-4 px-8 font-mont font-bold text-sm tracking-wider bg-cp-black hover:bg-cp-light-black text-white  rounded">
                 SEE MY WORK
             </button>
+            </Link>
+
         </div>
     );
+};
+
+HeroDesktop.propTypes = {
+    update: PropTypes.func.isRequired,
 };
 
 export default HeroDesktop;

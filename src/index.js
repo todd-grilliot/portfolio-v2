@@ -4,16 +4,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Home from "./Pages/Home";
 import reportWebVitals from "./reportWebVitals";
-// import expenses from "./Pages/expenses";
-// import invoices from "./Pages/invoices";
 import About from "./Pages/About";
 import NoMatchPage from "./Pages/NoMatchPage";
+import ProjectPage from "./Pages/ProjectPage";
 
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="projects" element={<Home scrollToProjects={true}/>} />
+                <Route path="projects/:projectId" element={<ProjectPage />} />
                 <Route path="*" element={<NoMatchPage />} />
                 <Route path="about" element={<About />} />
 

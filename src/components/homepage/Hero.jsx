@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
-const Hero = () => {
+const Hero = ({ update }) => {
     return (
         <div className="bg-cp-blue bg-cover w-fit lg:hidden">
             <h2 className="pt-8 pb-2 leading-tight font-play font-black text-2xl text-cp-black text-center">
@@ -15,14 +17,18 @@ const Hero = () => {
                 projects so you can play with them. Take a look around and let
                 me know what you think!
             </p>
-            <div className="flex">
+            <Link to="/projects" onClick={update} className="flex">
                 <button className="mx-auto mb-8 py-4 px-8 font-mont font-bold text-sm tracking-wider bg-cp-black hover:bg-cp-light-black text-white rounded">
                     SEE MY WORK
                 </button>
-            </div>
+            </Link>
             <div className="py-32 h-40v bg-top bg-cover bg-hero-mobile"></div>
         </div>
     );
+};
+
+Hero.propTypes = {
+    update: PropTypes.func.isRequired,
 };
 
 export default Hero;
