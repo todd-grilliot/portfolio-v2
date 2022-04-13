@@ -9,7 +9,7 @@ const MenuModal = ({isGrey, toggleMenu, update}) => {
     }
   return (
     <div className='close-menu fixed z-10 left-0 top-0 w-full h-full overflow-auto bg-trans-black' onClick={toggleMenu}>
-        <div className='bg-white m-8 my-20 p-2 w-80v text-center text-xl font-mont'>
+        <div className='bg-white mx-auto my-20 p-2 w-80v text-center text-xl font-mont'>
         <Link to="/" className={`block px-8 py-4 text-cp-black`}>
                 Home
             </Link>

@@ -20,9 +20,7 @@ const ProjectList = ({ isOnDesktop }) => {
                     <p className="text-white font-mont mx-6 mt-6 font-medium">
                         {value.summary}
                     </p>
-                    <Link
-                        to={`/projects/${index}`}
-                    >
+                    <Link to={`/projects/${index}`}>
                         <button className="mx-auto my-8 py-4 px-8 font-mont font-bold text-sm tracking-wider bg-cp-black hover:bg-cp-light-black text-white  rounded">
                             LEARN MORE
                         </button>
@@ -48,9 +46,11 @@ const ProjectList = ({ isOnDesktop }) => {
                                 <p className="text-white font-mont mt-6 font-medium w-3/5">
                                     {value.summary}
                                 </p>
-                                <button className="mx-auto my-8 py-4 px-8 font-mont font-bold text-sm tracking-wider bg-cp-black hover:bg-cp-light-black text-white  rounded">
-                                    LEARN MORE
-                                </button>
+                                <Link to={`/projects/${index}`}>
+                                    <button className="mx-auto my-8 py-4 px-8 font-mont font-bold text-sm tracking-wider bg-cp-black hover:bg-cp-light-black text-white  rounded">
+                                        LEARN MORE
+                                    </button>
+                                </Link>
                             </div>
                         </>
                     ) : (
@@ -63,9 +63,11 @@ const ProjectList = ({ isOnDesktop }) => {
                                 <p className="text-white font-mont mt-6 font-medium w-3/5">
                                     {value.summary}
                                 </p>
-                                <button className="mx-auto my-8 py-4 px-8 font-mont font-bold text-sm tracking-wider bg-cp-black hover:bg-cp-light-black text-white  rounded">
-                                    LEARN MORE
-                                </button>
+                                <Link to={`/projects/${index}`}>
+                                    <button className="mx-auto my-8 py-4 px-8 font-mont font-bold text-sm tracking-wider bg-cp-black hover:bg-cp-light-black text-white  rounded">
+                                        LEARN MORE
+                                    </button>
+                                </Link>
                             </div>
                             <div className="w-1/2 pl-12 my-auto">
                                 <img src={value.img} alt="none" />

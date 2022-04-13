@@ -39,6 +39,7 @@ module.exports = {
                 "cp-red": "#FF6766",
                 "cp-black": "#3A3A3A",
                 "cp-light-black": "#606060",
+                "cp-grey": "#D3D3D3",
                 "trans-black": "rgba(0,0,0,0.3)",
                 "off-white": "#FBFBFB",
             },
@@ -49,6 +50,7 @@ module.exports = {
             backgroundImage: {
                 "hero-desktop": "url('assets/hi-my-name-is-todd.jpg')",
                 "hero-mobile": "url('assets/hi-my-name-is-todd-mobile.jpg')",
+                "project": "url('assets/blck-n-white-pattern3.jpg')"
             },
         },
     },
