@@ -2,7 +2,6 @@ import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import MenuModal from "./MenuModal";
 
 const Header = ({ isGrey, update }) => {
@@ -54,7 +53,7 @@ const Header = ({ isGrey, update }) => {
             onClick={toggleMenu}
         >
             <FontAwesomeIcon
-                icon={faBars}
+                icon="fa-bars"
                 className={`text-4xl ${
                     showModal
                         ? `${isGrey ? "text-slate-500" : "text-cp-light-blue"}`

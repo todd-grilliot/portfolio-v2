@@ -13,7 +13,7 @@ export const skillsObj = [
     },
     {
         name: "Node",
-        img: require("../assets/icons/istockphoto-1195857274-170667a.jpg"),
+        img: require("../assets/icons/nodejs-240.png"),
     },
     {
         name: "Git",
@@ -23,6 +23,18 @@ export const skillsObj = [
         name: "FireBase",
         img: require("../assets/icons/icons8-google-firebase-console-240.png"),
     },
+    // {
+    //     name: "twitter",
+    //     img: require("../assets/icons/twitter-240.png"),
+    // }
+    // {
+    //     name: "Heroku",
+    //     img: require("../assets/icons/heroku240.png"),
+    // }
+    // {
+    //     name: "HTML",
+    //     img: require("../assets/icons/html-5-240.png"),
+    // }
     // {
     //     name: "Postgres",
     //     img: require("../assets/icons/icons8-postgresql-240.webp"),

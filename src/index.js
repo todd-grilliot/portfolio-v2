@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import About from "./Pages/About";
 import NoMatchPage from "./Pages/NoMatchPage";
 import ProjectPage from "./Pages/ProjectPage";
+import "./libraries/faLibrary";
 
 ReactDOM.render(
     <React.StrictMode>
