@@ -19,8 +19,12 @@ import {
     faPaperPlane,
     faCode,
     faArrowPointer,
+    faPaintBrush,
+    faMusic,
+    faAtom,
+    faPaw,
 } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faChrome, faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
     faBars,
@@ -44,4 +48,9 @@ library.add(
     faPaperPlane,
     faCode,
     faArrowPointer,
+    faPaintBrush,
+    faMusic,
+    faAtom,
+    faChrome,
+    faPaw,
 );
