@@ -7,6 +7,10 @@ module.exports = {
     ],
     theme: {
         extend: {
+            padding: {
+                "1/2": "50%",
+                "9/16": "56.25%",
+            },
             height: {
                 "10v": "10vh",
                 "20v": "20vh",

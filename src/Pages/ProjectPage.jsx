@@ -18,7 +18,7 @@ function findInArray(array, index) {
 const ProjectPage = () => {
     const projectIndex = useLocation().pathname.slice(-1);
     const project = findInArray(projectObj, projectIndex);
-    useEffect(() => window.scrollTo(0,0));
+    useEffect(() => window.scrollTo(0, 0));
 
     return (
         <div>
@@ -38,12 +38,25 @@ const ProjectPage = () => {
                         ))}
                     </p>
                     <a target="blank" href={project.link}>
-                        <img
-                            href={project.link}
-                            src={project.img}
-                            alt="no image"
-                            className="w-5/6 lg:w-2/3 mx-auto my-8 lg:mx-0"
-                        />
+                        {project.video ? (
+                            <div className="relative overflow-hidden w-5/6 pt-9/16 mx-auto my-8 lg:mx-0">
+                                <iframe
+                                    className="w-full h-full absolute top-0 left-0 bottom-0 right-0 "
+                                    src={project.video}
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                        ) : (
+                            <img
+                                href={project.link}
+                                src={project.img}
+                                alt="no image"
+                                className="w-5/6 lg:w-2/3 mx-auto my-8 lg:mx-0"
+                            />
+                        )}
                     </a>
                     <div className="lg:flex block text-center">
                         <a

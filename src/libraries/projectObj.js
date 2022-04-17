@@ -35,16 +35,16 @@ export const projectObj = [
         ],
         tech: [
             {
-                img: require("../assets/icons/react-logo-ducks.png"),
                 name: "React",
+                img: require("../assets/icons/react-logo-ducks.png"),                
             },
             {
-                img: require("../assets/icons/icons8-css3-240.png"),
                 name: "CSS",
+                img: require("../assets/icons/icons8-css3-240.png"),                
             },
             {
-                img: require("../assets/icons/html-5-240.png"),
                 name: "Web Audio",
+                img: require("../assets/icons/html-5-240.png"),                
             },
         ],
     },
@@ -93,16 +93,16 @@ export const projectObj = [
         ],
         tech: [
             {
-                img: require("../assets/icons/600px-JavaScript-logo.png"),
                 name: "JavaScript",
+                img: require("../assets/icons/600px-JavaScript-logo.png"),                
             },
             {
-                img: require("../assets/icons/icons8-css3-240.png"),
                 name: "CSS",
+                img: require("../assets/icons/icons8-css3-240.png"),
             },
             {
-                img: require("../assets/icons/icons8-google-firebase-console-240.png"),
                 name: "Firebase",
+                img: require("../assets/icons/icons8-google-firebase-console-240.png"),            
             },
         ],
     },
@@ -145,16 +145,16 @@ export const projectObj = [
         ],
         tech: [
             {
-                img: require("../assets/icons/nodejs-240.png"),
                 name: "Node",
+                img: require("../assets/icons/nodejs-240.png"),                
             },
             {
-                img: require("../assets/icons/heroku240.png"),
                 name: "Heroku",
+                img: require("../assets/icons/heroku240.png"),                
             },
             {
-                img: require("../assets/icons/twitter-240.png"),
                 name: "Twitter",
+                img: require("../assets/icons/twitter-240.png"),                
             },
         ],
     },
@@ -196,16 +196,70 @@ export const projectObj = [
         ],
         tech: [
             {
-                img: require("../assets/icons/600px-JavaScript-logo.png"),
                 name: "JavaScript",
+                img: require("../assets/icons/600px-JavaScript-logo.png"),                
             },
             {
-                img: require("../assets/icons/icons8-css3-240.png"),
                 name: "CSS",
+                img: require("../assets/icons/icons8-css3-240.png"),                
             },
             {
-                img: require("../assets/icons/html-5-240.png"),
                 name: "HTML",
+                img: require("../assets/icons/html-5-240.png"),            
+            },
+        ],
+    },
+    {
+        id: 4,
+        name: "Unity Game",
+        img: require("../assets/space-game.PNG"),
+        video: "https://www.youtube.com/embed/3p_DYQI-llk",
+        summary:
+            "A pixel art game that I made in unity",
+        description: [
+            "Orbital Space Puppy Rescue is a game about a man who has lost his puppy and wants to get home.",
+            "Unity is how I first learned code. Scripting for unity is done in C#. All the art and music in the game was made by me and my friends.",
+            "",
+            "WASD: steering/thrust",
+            "Shift/Space: Toggle Gravity",
+            "You win by getting your puppy! Watch out for the space octopi and the cookie men! lol",
+        ],
+        link: "https://melonboy55.itch.io/orbital-puppy-rescue",
+        github: "https://github.com/yankeehotelfoxtrot51/Orbit-mint-bicycle",
+        features: [
+            {
+                icon: "fa-paint-brush",
+                text: "Cool art",
+            },
+            {
+                icon: "fa-music",
+                text: "Cool music",
+            },
+            {
+                icon: "fa-atom",
+                text: "Simulated physics",
+            },
+            {
+                icon: "fa-brands fa-chrome",
+                text: "Plays In Browser",
+            },
+            {
+                icon: "fa-paw",
+                text: "Cute Doggos",
+            },
+        ],
+        tech: [
+            {
+                name: "C#",
+                img: require("../assets/icons/Csharp_Logo.png"),
+            },
+            {
+                name: "Unity",
+                img: require("../assets/icons/unity-logo-white.png"),
+            },
+            {
+                name: "FL Studio",
+                img: require("../assets/icons/icons8-fl-studio-128.png"),
             },
         ],
     },

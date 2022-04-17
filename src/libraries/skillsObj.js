@@ -24,6 +24,18 @@ export const skillsObj = [
         img: require("../assets/icons/icons8-google-firebase-console-240.png"),
     },
     // {
+    //     name: "FL Studio",
+    //     img: require("../assets/icons/icons8-fl-studio-128.png"),
+    // },
+    // {
+    //     name: "Unity",
+    //     img: require("../assets/icons/unity-logo-white.png"),
+    // },
+    // {
+    //     name: "C#",
+    //     img: require("../assets/icons/Csharp_Logo.png"),
+    // }
+    // {
     //     name: "twitter",
     //     img: require("../assets/icons/twitter-240.png"),
     // }
