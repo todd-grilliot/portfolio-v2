@@ -9,7 +9,7 @@ export const projectObj = [
             "This is a keyboard! A synth! You can play music with it! I wanted to make something unique and interesting.. I love music so this seemed to be a good idea. I had a blast making it.",
             "Just a heads up, it doesn't work very well on mobile devices. I couldn't really find a good way to make a 24-key keyboard fit on such a small screen. Try it with mouse and keyboard!",
         ],  
-        link: "https://toddgrilliot.space/retro-synth/",
+        link: "https://toddgrilliot.site/retro-synth/",
         github: "https://github.com/yankeehotelfoxtrot51/react-piano",
         features: [
             {
@@ -59,7 +59,7 @@ export const projectObj = [
             "I wanted to make something with users so I could learn about databases and authentication. It turns out Google Firebase has some pretty wonderful solutions for that, and learning firebase was a blast. I also learned a lot organizing all of the data in a way that could be written and read from the database. It was so much fun getting it all working.",
             "Everything was built with custom css and jquery.",
         ],
-        link: "https://toddgrilliot.space/notes-app/",
+        link: "https://toddgrilliot.site/notes-app/",
         github: "https://github.com/yankeehotelfoxtrot51/Notes-App",
         features: [
             {
@@ -114,8 +114,9 @@ export const projectObj = [
         description: [
             "This is my bot that I made using node.js and the twitter API. He is hosted on a free Heroku account. All he does is retweet the most liked tweets from different accounts.",
             "I learned a lot about Async functions and promises while working on this project. His logic isn’t that complicated, but it forced me to get out of my comfort zone and learn new things.",
+            "The bot is no longer hosted."
         ],
-        link: "https://twitter.com/HenryJayEyering",
+        link: "https://github.com/yankeehotelfoxtrot51/TwitterBotNode",
         github: "https://github.com/yankeehotelfoxtrot51/TwitterBotNode",
         features: [
             {
@@ -170,7 +171,7 @@ export const projectObj = [
             "",
             "*Disclaimer* While the original app pulled realtime data from fixer.io, the requests were made using http instead of https. In order to host it here I’ve switched to a static json file that uses https. Unfortunately that means that the data is no longer live. Still, you can see how it works and what I learned making it.",
         ],
-        link: "https://toddgrilliot.space/currency-exchange/",
+        link: "https://toddgrilliot.site/currency-exchange/",
         github: "https://github.com/yankeehotelfoxtrot51/Currency-Exchange-Project",
         features: [
             {
